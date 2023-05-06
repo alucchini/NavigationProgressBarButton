@@ -8,19 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		931D2B8529CC85DF00DCDBB4 /* NavigationProgressBarButtonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931D2B8429CC85DF00DCDBB4 /* NavigationProgressBarButtonApp.swift */; };
-		931D2B8729CC85DF00DCDBB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931D2B8629CC85DF00DCDBB4 /* ContentView.swift */; };
+		931D2B8729CC85DF00DCDBB4 /* NavProgressBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931D2B8629CC85DF00DCDBB4 /* NavProgressBarButton.swift */; };
 		931D2B8929CC85E000DCDBB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 931D2B8829CC85E000DCDBB4 /* Assets.xcassets */; };
 		931D2B8C29CC85E000DCDBB4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 931D2B8B29CC85E000DCDBB4 /* Preview Assets.xcassets */; };
-		931D2B9329CC86B900DCDBB4 /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931D2B9229CC86B900DCDBB4 /* EmptyView.swift */; };
+		931D2B9329CC86B900DCDBB4 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931D2B9229CC86B900DCDBB4 /* SecondView.swift */; };
+		9379C6ED2A0658DE009A3AD9 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9379C6EC2A0658DE009A3AD9 /* FirstView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		931D2B8129CC85DF00DCDBB4 /* NavigationProgressBarButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationProgressBarButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		931D2B8429CC85DF00DCDBB4 /* NavigationProgressBarButtonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationProgressBarButtonApp.swift; sourceTree = "<group>"; };
-		931D2B8629CC85DF00DCDBB4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		931D2B8629CC85DF00DCDBB4 /* NavProgressBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavProgressBarButton.swift; sourceTree = "<group>"; };
 		931D2B8829CC85E000DCDBB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		931D2B8B29CC85E000DCDBB4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		931D2B9229CC86B900DCDBB4 /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
+		931D2B9229CC86B900DCDBB4 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		9379C6EC2A0658DE009A3AD9 /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				931D2B8429CC85DF00DCDBB4 /* NavigationProgressBarButtonApp.swift */,
-				931D2B8629CC85DF00DCDBB4 /* ContentView.swift */,
-				931D2B9229CC86B900DCDBB4 /* EmptyView.swift */,
+				9379C6EC2A0658DE009A3AD9 /* FirstView.swift */,
+				931D2B8629CC85DF00DCDBB4 /* NavProgressBarButton.swift */,
+				931D2B9229CC86B900DCDBB4 /* SecondView.swift */,
 				931D2B8829CC85E000DCDBB4 /* Assets.xcassets */,
 				931D2B8A29CC85E000DCDBB4 /* Preview Content */,
 			);
@@ -140,8 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				931D2B8729CC85DF00DCDBB4 /* ContentView.swift in Sources */,
-				931D2B9329CC86B900DCDBB4 /* EmptyView.swift in Sources */,
+				931D2B8729CC85DF00DCDBB4 /* NavProgressBarButton.swift in Sources */,
+				9379C6ED2A0658DE009A3AD9 /* FirstView.swift in Sources */,
+				931D2B9329CC86B900DCDBB4 /* SecondView.swift in Sources */,
 				931D2B8529CC85DF00DCDBB4 /* NavigationProgressBarButtonApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
